@@ -7,47 +7,47 @@ const zucchine = [
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaDue = {
         tipo : "zucchina 2",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaTre = {
         tipo : "zucchina 3",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaQuattro = {
         tipo : "zucchina 4",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaCinque = {
         tipo : "zucchina 5",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaSei = {
         tipo : "zucchina 6",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaSette = {
         tipo : "zucchina 7",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaOtto = {
         tipo : "zucchina 8",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaNove = {
         tipo : "zucchina 9",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaUno = {
+    zucchinaDieci = {
         tipo : "zucchina 10",
         peso : 50,
         lunghezza : 20,
@@ -56,3 +56,8 @@ const zucchine = [
 
 const {peso} = zucchine;
 
+const pesoZucchine = "";
+
+for (let i = {peso}; i < zucchine.length; i++){
+    
+};
