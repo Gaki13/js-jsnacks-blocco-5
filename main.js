@@ -2,62 +2,61 @@
 // Calcola quanto pesano tutte le zucchine.
 
 const zucchine = [
-    zucchinaUno = {
+    {
         tipo : "zucchina 1",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaDue = {
+    {
         tipo : "zucchina 2",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaTre = {
+    {
         tipo : "zucchina 3",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaQuattro = {
+    {
         tipo : "zucchina 4",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaCinque = {
+    {
         tipo : "zucchina 5",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaSei = {
+    {
         tipo : "zucchina 6",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaSette = {
+    {
         tipo : "zucchina 7",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaOtto = {
+    {
         tipo : "zucchina 8",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaNove = {
+    {
         tipo : "zucchina 9",
         peso : 50,
         lunghezza : 20,
     },
-    zucchinaDieci = {
+    {
         tipo : "zucchina 10",
         peso : 50,
         lunghezza : 20,
     }
 ];
 
-const {peso} = zucchine;
+let pesoZucchine = 0;
 
-const pesoZucchine = "";
-
-for (let i = {peso}; i < zucchine.length; i++){
-    
+for (let i = 0; i < zucchine.length; i++){
+    pesoZucchine += zucchine[i].peso;
+    console.log(pesoZucchine);
 };
