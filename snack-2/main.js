@@ -2,8 +2,6 @@
 // Dividi in due array separati le zucchine che misurano meno o più di 15cm.
 // Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 
-
-
 const zucchine = [
     {
         tipo : "zucchina 1",
@@ -56,3 +54,12 @@ const zucchine = [
         lunghezza : 20,
     }
 ];
+
+const shortZucchine = [];
+
+for (let i = 0; i < zucchine.length; i++){
+    if(zucchine.lunghezza < 15){
+        zucchine[i].lunghezza.push(shortZucchine);
+        console.log(shortZucchine);
+    }
+};
