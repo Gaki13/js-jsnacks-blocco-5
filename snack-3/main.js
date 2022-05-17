@@ -58,7 +58,8 @@ const auto = [
 // creo i miei array vuoti dove mettere le auto in base al tipo di alimentazione
 
 const autoBenzina = [];
-
 const autoDiesel = [];
-
 const otherAuto = [];
+
+const gasType = auto.filter( auto => auto.alimentazione === "benzina")
+console.log (gasType)
