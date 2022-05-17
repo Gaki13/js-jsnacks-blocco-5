@@ -54,3 +54,11 @@ const auto = [
     alimentazione: "metano"   
     },
 ];
+
+// creo i miei array vuoti dove mettere le auto in base al tipo di alimentazione
+
+const autoBenzina = [];
+
+const autoDiesel = [];
+
+const otherAuto = [];
