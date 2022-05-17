@@ -61,5 +61,5 @@ const autoBenzina = [];
 const autoDiesel = [];
 const otherAuto = [];
 
-const gasType = auto.filter( auto => auto.alimentazione === "benzina")
+const gasType = auto.filter(auto => auto.alimentazione === "Benzina")
 console.log (gasType)
